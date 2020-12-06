@@ -10,15 +10,15 @@ insert_final_newline = true
 
 # Matches multiple files with brace expansion notation
 # Set default charset
-[*.{js,css}]
+[*.{js,scss}]
 charset = utf-8
 
 # Tab indentation (no size specified)
 [Makefile]
 indent_style = tab
 
-# Indentation override for all JS under lib directory
-[lib/**.js]
+# Indentation override for all JS and CSS under src directory
+[src/**.{js,scss}]
 indent_style = space
 indent_size = 2
 

@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.tools {
+  display: flex;
+  height: 60px;
+  padding: 10px;
+  background-color: aquamarine;
+}
+
+.mobile-menu {
+  position: absolute;
+  align-self: center;
+  right: 25px;
+  font-size: 38px;
+  color: white;
+}

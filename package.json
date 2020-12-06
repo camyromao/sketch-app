@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/camyromao/sketch-app#readme",
   "devDependencies": {
-    "parcel": "^2.0.0-nightly.467"
+    "parcel": "^2.0.0-nightly.467",
+    "sass": "^1.30.0"
   }
 }
