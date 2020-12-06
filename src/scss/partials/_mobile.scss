@@ -1,3 +1,5 @@
+$app-color: aquamarine;
+
 body {
   margin: 0;
 }
@@ -9,15 +11,24 @@ body {
 
 .tools {
   display: flex;
+  justify-content: flex-end;
   height: 60px;
   padding: 10px;
-  background-color: aquamarine;
+  background-color: $app-color;
+  font-size: 38px;
+  color: white;
+}
+
+.tool {
+  display: none;
 }
 
 .mobile-menu {
   position: absolute;
   align-self: center;
   right: 25px;
-  font-size: 38px;
-  color: white;
+}
+
+.canvas {
+  height: calc(100vh - 60px);
 }
